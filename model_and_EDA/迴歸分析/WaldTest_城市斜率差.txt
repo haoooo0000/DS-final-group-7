@@ -1,0 +1,17 @@
+
+Linear hypothesis test:
+人口淨流入:factor(城市)高雄市 = 0
+人口淨流入:factor(城市)新北市 = 0
+人口淨流入:factor(城市)臺中市 = 0
+人口淨流入:factor(城市)臺北市 = 0
+人口淨流入:factor(城市)臺南市 = 0
+
+Model 1: restricted model
+Model 2: 房價_平均 ~ 人口淨流入 * factor(城市) + CPI + 年所得 + 
+    貸款利率 + 失業率
+
+  Res.Df    RSS Df Sum of Sq      F  Pr(>F)  
+1    697 5999.4                              
+2    692 5883.9  5    115.58 2.7188 0.01919 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
