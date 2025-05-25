@@ -1,0 +1,35 @@
+Generalized least squares fit by REML
+  Model: 房價_平均 ~ 人口淨流入 + CPI + 年所得 + 貸款利率 +      失業率 
+  Data: df_gls 
+       AIC      BIC    logLik
+  3816.077 3852.508 -1900.038
+
+Correlation Structure: AR(1)
+ Formula: ~時間序號 | 城市 
+ Parameter estimate(s):
+      Phi 
+0.9322288 
+
+Coefficients:
+                Value Std.Error   t-value p-value
+(Intercept) -96.57754 18.100788 -5.335543  0.0000
+人口淨流入    0.00064  0.000245  2.620303  0.0090
+CPI           0.41636  0.149568  2.783710  0.0055
+年所得        0.00006  0.000008  7.244933  0.0000
+貸款利率      0.51316  1.639239  0.313048  0.7543
+失業率        2.75025  1.950114  1.410301  0.1589
+
+ Correlation: 
+           (Intr) 人口淨流入 CPI    年所得 貸款利率
+人口淨流入  0.067                                  
+CPI        -0.619 -0.039                           
+年所得     -0.542 -0.043     -0.153                
+貸款利率   -0.095  0.022     -0.198  0.049         
+失業率     -0.405 -0.030     -0.198  0.235  0.170  
+
+Standardized residuals:
+       Min         Q1        Med         Q3        Max 
+-1.6316607 -0.5627844 -0.2343301  0.1273367  5.2154551 
+
+Residual standard error: 9.543431 
+Degrees of freedom: 708 total; 702 residual
