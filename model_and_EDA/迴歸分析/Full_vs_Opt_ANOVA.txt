@@ -1,0 +1,9 @@
+Analysis of Variance Table
+
+Model 1: 房價_平均 ~ 人口淨流入 + CPI + 年所得 + 貸款利率 + 
+    失業率
+Model 2: 房價_平均 ~ log_人口淨流入 + log_CPI + 年所得 + 貸款利率 + 
+    失業率 + 交互_人口x利率
+  Res.Df   RSS Df Sum of Sq F Pr(>F)
+1    702 22989                      
+2    701 39434  1    -16444         
