@@ -65,5 +65,4 @@
 
 ---
 
-📤 所有圖表與表格結果皆輸出至 `output/` 資料夾，為 DEMO 的材料來源。  
-各項結果依主題分類至 `model_and_EDA/其他 EDA 分析/` 與 `model_and_EDA/迴歸分析/` 子目錄。
+📤 所有圖表與表格結果皆已依主題分類輸出，並整理至 `model_and_EDA/其他 EDA 分析/` 與 `model_and_EDA/迴歸分析/` 子目錄中，為 DEMO 的材料來源。  
